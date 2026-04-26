@@ -14,7 +14,7 @@ def draw_rotated_rect(surf, color, center, length, width, angle):
     perp_x = -dir_y
     perp_y = dir_x
 
-    # Wyliczanie wierzchołków
+    # Wyliczanie wierzchołków figury
     points = []
     for i in [-1, 1]:
         for j in [-1, 1]:
