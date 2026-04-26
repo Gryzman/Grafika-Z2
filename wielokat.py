@@ -37,7 +37,7 @@ def draw_polygon(surface, num_points):
 
 polygon = pygame.Surface((width, height), pygame.SRCALPHA)
 
-# Wielokąt 10-kątny
+# Wielokąt 11-kątny
 draw_polygon(polygon, 11) 
 win.blit(polygon, (0, 0))
 pygame.display.flip()
